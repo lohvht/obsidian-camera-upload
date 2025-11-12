@@ -1,16 +1,17 @@
 {
   "compilerOptions": {
+    "skipLibCheck": true,
     "baseUrl": ".",
-    "inlineSourceMap": true,
-    "inlineSources": true,
-    "module": "ESNext",
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "module": "nodenext",
     "target": "ES6",
-    "allowJs": true,
+    "allowJs": false,
     "noImplicitAny": true,
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "importHelpers": true,
     "isolatedModules": true,
-    "strictNullChecks": true,
+    "strict": true,
     "lib": [
       "DOM",
       "ES5",
